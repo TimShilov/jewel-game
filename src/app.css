@@ -1,0 +1,80 @@
+:root {
+    font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+    line-height: 1.5;
+    font-weight: 400;
+
+    color-scheme: light dark;
+    color: rgba(255, 255, 255, 0.87);
+    background-color: rgba(215, 193, 193, 0.81);
+
+    font-synthesis: none;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-text-size-adjust: 100%;
+}
+
+body {
+    margin: 0;
+    display: flex;
+    place-items: center;
+    min-width: 320px;
+    min-height: 100vh;
+    width: 100%;
+}
+
+#app {
+    max-width: 1280px;
+    min-height: 100vh;
+    width: 100%;
+    flex: 1;
+    margin: 0 auto;
+    padding: 2rem;
+    text-align: center;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+}
+
+.flex-wrap {
+    flex-wrap: wrap;
+}
+
+.flex-0 {
+    flex: 0;
+}
+
+.flex-1 {
+    flex: 1;
+}
+
+.gray {
+    background-color: gray !important;
+}
+
+.purple {
+    background-color: #a02aad !important;
+}
+
+.green {
+    background-color: #129d12 !important;
+}
+.orange {
+    background-color: orange !important;
+}
+.yellow {
+    background-color: #dede1a !important;
+}
+.blue {
+    background-color: #4747f8 !important;
+}
+.red {
+    background-color: red !important;
+}
